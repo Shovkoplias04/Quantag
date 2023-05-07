@@ -3,6 +3,7 @@
 
 
 :root {
+    --almost-white:#F2F4F9;
     --main-blue: #004593;
     --light-gray: #F5F5F5;
     --gray: #D9D9D9;
@@ -239,6 +240,58 @@ body {
 
 .arrow {
     height: 34px;
+}
+
+
+
+/*companies*/
+.companies-block {
+    background: var(--almost-white);
+}
+
+.companies__title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.companies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+
+
+/*message*/
+.message-block {
+    background: #fff;
+    padding: 45px 0;
+}
+
+.message-card {
+    border-radius: 9.5px;
+    box-shadow: 0 6px 16px rgba(0,0,0,25%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.message-card h2 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.message-card h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.message-card p {
+    font-size: 0.6rem;
 }
 
 
