@@ -518,6 +518,22 @@ body {
         display: none;
     }
 
+    .footer__logo {
+        display: none;
+    }
+
+    .footer-top__inner {
+        justify-content: center;
+    }
+
+    .contacts-bot {
+        justify-content: center;
+    }
+
+    .footer-bot__inner {
+        justify-content: center;
+    }
+
     .form__block {
         flex-direction: column;
         padding: 5rem 1.5rem 0;
@@ -554,6 +570,10 @@ body {
     .services__title {
         font-size: 9rem;
         margin: 0 0 -20px 0;
+    }
+
+    .filter .container {
+        padding: 0;
     }
 
 }
